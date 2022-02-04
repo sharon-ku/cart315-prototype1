@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 751314124722794965}
   - component: {fileID: 3281368753019094303}
   - component: {fileID: 3929741483018200263}
-  - component: {fileID: 3929741483018200264}
-  - component: {fileID: 3929741483018200265}
+  - component: {fileID: 7969637306183936258}
+  - component: {fileID: 3165271786964555035}
   m_Layer: 0
   m_Name: Pencil
   m_TagString: Untagged
@@ -93,7 +93,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3929741483018200266}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.001
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -101,7 +101,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!65 &3929741483018200264
+--- !u!65 &7969637306183936258
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -112,21 +112,22 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.022289958, y: 0.022590749, z: 0.051808346}
-  m_Center: {x: 0.00008016825, y: -0.0008550453, z: 0.028049516}
---- !u!114 &3929741483018200265
-MonoBehaviour:
+  m_Size: {x: 0.019498557, y: 0.019009683, z: 0.05180835}
+  m_Center: {x: 0, y: 0.0004951557, z: 0.028049516}
+--- !u!64 &3165271786964555035
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3929741483018200266}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d4d41b197a871764786f685d08bf9af8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -6561623048535504736, guid: 382015dea3e546649819aec681c2b76c, type: 3}
 --- !u!1 &5169444332544821791
 GameObject:
   m_ObjectHideFlags: 0
